@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified CSS -->
+
+
+
+<title>Trivia</title>
+</head>
+<body>
+
+
+<div id="box">
+
+<div id="title"><h1>Sports Trivia</h1></div>
+<div id="start">
+	  <button type="button" class="btn btn-primary btn-lg">Click to Begin</button>
+</div>
+<div class="container">
+	<h2>Time Remaining</h2>
+	<div id="timer">:60</div>
+</div>
+<form name="quiz">
+	<ul id="slides">
+
+	<li id="first">How many periods in a hockey game</li>
+	<input type="radio" name="firstA" id="answers" value="A"/>2
+	<input type="radio" name="firstA" id="answers" value="B"/>3
+	<input type="radio" name="firstA" id="answers" value="C"/>4
+	<input type="radio" name="firstA" id="answers" value="D"/>none
+	</ul>
+
+	<ul id="slides">
+	<li id="second">In what sport is the Super Bowl</li>
+	<input type="radio" name="secondA" id="answers" value="A"/>Baseball
+	<input type="radio" name="secondA" id="answers" value="B"/>Basketball
+	<input type="radio" name="secondA" id="answers" value="C"/>Hockey
+	<input type="radio" name="secondA" id="answers" value="D"/>Football
+	</ul>
+
+	<ul id="slides">
+	<li id="third">What city is home of Broncos</li>
+	<input type="radio" name="thirdA" id="answers" value="A"/>Dallas
+	<input type="radio" name="thirdA" id="answers" value="B"/>Montana
+	<input type="radio" name="thirdA" id="answers" value="C"/>Denver
+	<input type="radio" name="thirdA" id="answers" value="D"/>Florida
+	</ul>
+
+	<ul id="slides">
+	<li id="fourth">How many outs per inning for baseball</li>
+	<input type="radio" name="fourthA"  id="answers" value="A"/>2
+	<input type="radio" name="fourthA" id="answers" value="B"/>4
+	<input type="radio" name="fourthA" id="answers" value="C"/>3
+	<input type="radio" name="fourthA" id="answers" value="D"/>1
+	</ul>
+
+	<ul id="slides">
+	<li id="fifth">How many innings in a Baseball Game</li>
+	<input type="radio" name="fifthA" id="answers" value="A"/>9
+	<input type="radio" name="fifthA" id="answers" value="B"/>10
+	<input type="radio" name="fifthA" id="answers" value="C"/>7
+	<input type="radio" name="fifthA" id="answers" value="D"/>11
+	</ul>
+
+	
+	</form>
+	
+
+	<div>
+		<button type="button" id="submit">Submit Answers</button>
+		<button type="button" id="reset">Play Again</button>
+	</div>
+
+
+
+
+ <script type="text/javascript" src="assets/javascript/app.js"></script> 
+
+</body>
+</html>

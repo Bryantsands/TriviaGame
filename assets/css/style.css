@@ -1,0 +1,28 @@
+body {
+	background-image: url("http://americanjourney2.com/wp-content/uploads/2016/09/bigstock-Four-Sports-a-lot-of-balls-an-50626115.jpg");
+}
+
+#box{
+	background-color: #FF7F50;
+	width:80%;
+	height:600px;
+	margin:auto;
+	margin-top:25px;
+	padding:30px;
+	border:solid black;
+}
+#title{
+	text-align: center;
+}
+#start{
+	position:absolute; 
+   margin-left:-100px;
+   left:50%;
+   width:200px;
+   bottom:400px;
+}
+.container{
+	text-align:center;
+	
+
+}
